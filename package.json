@@ -1,0 +1,14 @@
+{
+  "name": "rotaz-importante",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.23.0",
+    "sqlite3": "^6.0.1"
+  }
+}
