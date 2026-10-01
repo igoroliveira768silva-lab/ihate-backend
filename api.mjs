@@ -31,6 +31,7 @@ let server = http.createServer((req,res)=>{
 
 });
 //fica escutando o servidor nessa porta.
-server.listen(3001,()=>{
+let PORT = process.env.PORT || 3001;
+server.listen(PORT,()=>{
     console.log("api rodando pra carambaaaaaa");
 });
