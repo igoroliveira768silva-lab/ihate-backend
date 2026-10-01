@@ -1,12 +1,11 @@
 {
-  "name": "rotaz-importante",
+  "name": "ihate-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
   "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "api.mjs",
+  "scripts": {
+    "start": "node api.mjs"
+  },
   "dependencies": {
     "pg": "^8.23.0",
     "sqlite3": "^6.0.1"
